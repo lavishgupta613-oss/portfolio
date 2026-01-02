@@ -24,7 +24,7 @@ While the initial structure was inspired by an open-source portfolio template, t
 ## 🔗 Live Preview
 
 👉 **Live Website:**  
-[https://codervai.vercel.app/](https://lavishgupta.vercel.app/contact)
+https://lavishgupta.vercel.app/
 
 ---
 
