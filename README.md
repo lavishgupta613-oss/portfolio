@@ -11,92 +11,80 @@
 </div>
 
  
-Welcome to my **portfolio website**! This site showcases my skills, experience, education, projects, and how to get in touch with me. It's built with **React** and **Vite** for a fast, modern web experience. You can explore my work, learn about my journey, and contact me directly.
+# 🌐 Lavish Gupta — Portfolio Website
+
+Welcome to my **personal portfolio website** 👋  
+This site highlights my **skills, experience, education, projects**, and provides an easy way to **get in touch with me**.
+
+The portfolio is built using **React** and **Vite**, focusing on performance, clean UI, and smooth user experience.  
+While the initial structure was inspired by an open-source portfolio template, the content, customization, and enhancements reflect **my personal profile and work**.
 
 ---
 
-## Demo
+## 🔗 Live Preview
 
-![Portfolio Demo](https://i.postimg.cc/Dfr5jCQp/Screenshot-2025-01-02-120901.png)
+👉 **Live Website:**  
+https://codervai.vercel.app/
 
 ---
 
-## Live Preview
 
-Check out the live preview of the portfolio website here:  
-[**Live Demo**](https://codervai.vercel.app/)
+## 🎯 About This Project
+
+- Personal portfolio for **Lavish Gupta**
+- Showcases my **technical skills, projects, experience, and education**
+- Fully responsive and modern UI
+- Optimized for fast loading and smooth animations
+- Deployed on **Vercel**
+
+> ⚠️ **Note:**  
+> This project was initially cloned from an open-source repository and then **significantly customized** (UI, content, structure, features) to represent my own professional profile.
+
 ---
-### 🎯 Project Structure
+
+## 🧩 Sections Included
+
+- **Home** – Introduction and overview  
+- **Skills** – Technologies and tools I work with  
+- **Experience** – Professional and internship experience  
+- **Education** – Academic background  
+- **Projects** – Selected projects and work  
+- **Contact** – Reach out to me directly via the website  
+
+---
+
+## 💻 Tech Stack
+
+- **Frontend:** React.js + Vite  
+- **Styling:** Tailwind CSS  
+- **Animations:** Framer Motion  
+- **Icons:** Lucide / React Icons  
+- **Deployment:** Vercel  
+
+---
+
+## 📁 Project Structure
+
 ```bash
 portfolio/
-├── node_modules/
 ├── public/
 ├── src/
 │   ├── assets/
 │   │   ├── css/
-│   │   │   ├── index.css
-│   │   │   └── tomorrow.css
 │   │   └── images/
 │   ├── components/
 │   │   ├── ui/
-│   │   │   ├── Reusable Components/
-│   │   │   │   ├── badge.jsx
-│   │   │   │   ├── button.jsx
-│   │   │   │   ├── card.jsx
-│   │   │   │   ├── EducationLoader.jsx
-│   │   │   │   ├── evervault-card.jsx
-│   │   │   │   ├── flip-words.jsx
-│   │   │   │   ├── icon-cloud.jsx
-│   │   │   │   ├── meteors.jsx
-│   │   │   │   ├── sparkles-text.jsx
-│   │   │   │   └── tooltip.jsx
-│   │   │   │
-│   │   │   ├── Main Components/
-│   │   │   │   ├── AnimatedGrid.jsx
-│   │   │   │   ├── Contact.jsx
-│   │   │   │   ├── Education.jsx
-│   │   │   │   ├── enhanced-portfolio-card.jsx
-│   │   │   │   ├── Experience.jsx
-│   │   │   │   ├── global.jsx
-│   │   │   │   ├── Header.jsx
-│   │   │   │   ├── Hero.jsx
-│   │   │   │   ├── Home.jsx
-│   │   │   │   ├── PortfolioPage.jsx
-│   │   │   │   ├── Projects.jsx
-│   │   │   │   └── Skills.jsx
-│   │   └── lib/
-│   │       └── utils.js
+│   │   └── main components/
 │   ├── pages/
-│   │   ├── About/
-│   │   │   └── About.jsx
-│   │   ├── Contact/
-│   │   │   └── Contact.jsx
-│   │   ├── Experience/
-│   │   │   └── Experience.jsx
-│   │   ├── Header/
-│   │   │   └── Header.jsx
-│   │   ├── Hero/
-│   │   │   └── Hero.jsx
-│   │   ├── Projects/
-│   │   │   ├── Projects.jsx
-│   │   │   └── testProjects.jsx
-│   │   └── Skills/
-│   │       └── Skills.jsx
 │   ├── App.jsx
 │   └── main.jsx
-├── Configuration Files/
-│   ├── .eslintrc.js
-│   ├── .gitignore
-│   ├── components.json
-│   ├── index.html
-│   ├── jsconfig.json
-│   ├── package-lock.json
-│   ├── package.json
-│   ├── postcss.config.js
-│   ├── README.md
-│   ├── tailwind.config.js
-│   ├── vercel.json
-│   └── vite.config.js
+├── .gitignore
+├── index.html
+├── package.json
+├── tailwind.config.js
+├── vite.config.js
+├── vercel.json
+└── README.md
 
 ```
 ---
@@ -174,8 +162,6 @@ npm run dev
 View the Project 🌐
 Open your browser and visit http://localhost:5173/ to see the result! 🎉
 
-## 📝 License
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ---
 
