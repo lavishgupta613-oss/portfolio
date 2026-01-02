@@ -1,6 +1,5 @@
 import React from "react";
-import { Code2, Activity, Cpu, Layers, Network, Binary } from "lucide-react";
-
+import { Code2, Activity, Cpu, Layers, Network, Binary,Brain } from "lucide-react";
 const ExperienceCard = ({
   title,
   company,
@@ -8,41 +7,44 @@ const ExperienceCard = ({
   description,
   icon: Icon,
 }) => (
-  <div className="group relative overflow-hidden transform hover:-translate-y-2 transition-all duration-300">
-    {/* Glass morphism effect */}
+  <div className="group relative overflow-hidden transform hover:-translate-y-2 transition-all duration-300 w-full">
+    {/* Glass morphism */}
     <div className="absolute inset-0 backdrop-blur-lg bg-white/5 rounded-lg" />
 
-    {/* Animated gradient border */}
+    {/* Gradient border */}
     <div className="absolute -inset-[2px] bg-gradient-to-r from-cyan-500 via-blue-500 to-purple-500 rounded-lg opacity-0 group-hover:opacity-100 animate-gradient-xy transition-all duration-500" />
 
     <div className="relative bg-gray-900/90 rounded-lg p-8 h-full border border-gray-800/50 shadow-xl backdrop-blur-xl">
-      {/* Floating icon with pulse effect */}
+      {/* Icon */}
       <div className="relative mb-6">
         <div className="absolute -inset-4 bg-gradient-to-r from-cyan-500 to-blue-500 opacity-25 rounded-full blur-xl group-hover:opacity-75 animate-pulse transition-all duration-500" />
         <Icon className="w-12 h-12 text-cyan-400 relative z-10 transform group-hover:rotate-12 transition-transform duration-300" />
       </div>
 
-      {/* Content with improved typography */}
+      {/* Content */}
       <div className="space-y-3">
         <h3 className="text-2xl font-bold bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">
           {title}
         </h3>
+
         <div className="flex justify-between items-center text-gray-300">
           <span className="font-semibold text-blue-400">{company}</span>
           <span className="text-sm font-mono bg-blue-500/10 px-3 py-1 rounded-full">
             {period}
           </span>
         </div>
+
         <p className="text-gray-300 border-l-4 border-blue-500/50 pl-4 mt-4 leading-relaxed">
           {description}
         </p>
       </div>
 
-      {/* Decorative elements */}
+      {/* Decorations */}
       <div className="absolute top-4 right-4 w-20 h-20">
         <div className="absolute top-0 right-0 w-6 h-[2px] bg-cyan-500/50" />
         <div className="absolute top-0 right-0 w-[2px] h-6 bg-cyan-500/50" />
       </div>
+
       <div className="absolute bottom-4 left-4 w-20 h-20">
         <div className="absolute bottom-0 left-0 w-6 h-[2px] bg-purple-500/50" />
         <div className="absolute bottom-0 left-0 w-[2px] h-6 bg-purple-500/50" />
@@ -54,29 +56,21 @@ const ExperienceCard = ({
 const ExperienceSection = () => {
   const experiences = [
     {
-      icon: Network,
-      title: "WordPress Developer",
-      company: "Fiverr",
-      period: "2019 - 2020",
+      icon: Brain,
+      title: "Data Scientist",
+      company: "Turing",
+      period: "Jun 2025 – Present",
       description:
-        "Worked on developing and customizing WordPress websites for clients globally.",
-    },
-    {
-      icon: Layers,
-      title: "Junior Frontend Developer",
-      company: "Sera Programmer",
-      period: "2021 - 2023",
-      description:
-        "Assisted in building and optimizing user interfaces with a focus on responsive and interactive designs.",
+        "Designing and refining system prompts for LLM-based applications, performing iterative prompt tuning, and evaluating model outputs using feedback-driven mechanisms inspired by RLHF to improve alignment, reliability, and response consistency.",
     },
     {
       icon: Code2,
-      title: "JavaScript Developer",
-      company: "OlovJS (Sera Programmer)",
-      period: "2023 - Present",
+      title: "Developer & Creator",
+      company: "ApniWish (Browser Extension)",
+      period: "2025 – Present",
       description:
-        "Contributed to developing JavaScript libraries and enhancing framework functionalities.",
-    },
+        "Designed, developed, and published a smart wishlist browser extension that aggregates products across multiple e-commerce platforms. Implemented DOM-based data extraction, unified product metadata storage, platform-based filtering, and distributed the extension via the Microsoft Edge Add-ons Store.",
+    }
   ];
 
   return (
@@ -119,7 +113,7 @@ const ExperienceSection = () => {
           </div>
 
           {/* Experience grid with improved layout */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 max-w-7xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10 max-w-7xl mx-auto">
             {experiences.map((exp, index) => (
               <ExperienceCard key={index} {...exp} />
             ))}

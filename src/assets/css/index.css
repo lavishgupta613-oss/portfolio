@@ -2,6 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --background: 0 0% 100%;
+  --foreground: 222 47% 11%;
+  --border: 214 32% 91%;
+  --radius: 0.5rem;
+}
+
+@layer base {
+  * {
+    border-color: hsl(var(--border));
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: Inter, sans-serif;
+  }
+}
+
+
+
+
+
 @keyframes float-slow {
   0%,
   100% {
@@ -200,14 +222,16 @@ pre[class*="language-"] {
   }
 }
 
-@layer base {
+/* @layer base {
   * {
-    @apply border-border;
+    @apply border border-gray-200;
   }
+
   body {
-    @apply bg-background text-foreground;
+    @apply bg-white text-gray-900;
   }
-}
+} */
+
 /* Add these classes to adjust the grid colors in the top-left and bottom-right */
 .top-left-grid {
   background-color: white;

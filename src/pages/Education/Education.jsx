@@ -15,24 +15,24 @@ const EducationSection = () => {
 
   const educationData = [
     {
-      degree: "Secondary School Certificate (SSC)",
-      school: "Natore Textile Institute",
-      mascot: "📘",
-      year: "2019-2021",
-      achievements: ["GPA: 4.89", "Subject: Science"],
-      skills: ["Mathematics", "Physics", "Chemistry", "Biology"],
+      degree: "Bachelor of Technology (B.Tech) - AI & DS",
+      school: "Indian Institute of Technology Jodhpur",
+      mascot: "🎓",
+      year: "2021 - 2025",
+      achievements: ["Specialization: Artificial Intelligence & Data Science"],
+      skills: ["Machine Learning", "Deep Learning", "NLP", "Computer Vision", "Data Structures", "Algorithms"],
       description:
-        "Focused on core science subjects with emphasis on practical laboratory work and scientific research methodologies.",
+        "Focused on Artificial Intelligence and Data Science while building strong software engineering skills. Developed programming expertise in Python, C++, and JavaScript, implemented scalable backend systems, APIs, and data pipelines, and worked on research and practical projects involving LLMs, GenAI, and full-stack applications.",
     },
     {
-      degree: "Higher Secondary Certificate (HSC)",
-      school: "Dottopara Model Degree College",
-      mascot: "📗",
-      year: "2021-2023",
-      achievements: ["GPA: 4.25", "Subject: Arts"],
-      skills: ["Literature", "Social Studies", "Economics", "History"],
+      degree: "Higher Secondary Education (Class 12 - CBSE)",
+      school: "PDS Public School",
+      mascot: "🏫",
+      year: "2018 - 2020",
+      achievements: ["Completed CBSE Class 12", "Focus: Science Stream"],
+      skills: ["Physics", "Chemistry", "Mathematics", "Biology"],
       description:
-        "Developed strong analytical and critical thinking skills through comprehensive study of humanities and social sciences.",
+        "Completed senior secondary education with strong foundation in core science subjects, preparing for engineering studies and problem-solving in technical disciplines.",
     },
   ];
 
